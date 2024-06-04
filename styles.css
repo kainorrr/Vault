@@ -23,3 +23,34 @@ body {
 }
 
 .button
+ {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.tab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.tab img {
+    width: 200px;
+    height: auto;
+}
+
+.tab-text {
+    font-size: 18px;
+    font-family: 'KoHo', sans-serif; /* Applying KoHo font */
+}
