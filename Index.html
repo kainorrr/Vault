@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qualifier's Vault</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <audio id="backgroundMusic" autoplay loop>
+        <source src="background_music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="clickSound">
+        <source src="click.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div id="mainPage" class="page">
+        <h1>Qualifier's Vault</h1>
+        <button id="vaultBtn" class="button">VAULT</button>
+        <div class="tab">
+            <div>
+                <img src="cell.png" alt="cell">
+                <p class="tab-text">Custom Text</p>
+            </div>
+            <div>
+                <img src="dell.png" alt="dell">
+                <p class="tab-text">Custom Text</p>
+            </div>
+            <div>
+                <img src="fell.png" alt="fell">
+                <p class="tab-text">Custom Text</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="vaultPage" class="page hidden">
+        <h1>Vault</h1>
+        <button id="mainBtn" class="button">Main</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
